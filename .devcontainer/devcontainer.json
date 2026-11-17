@@ -1,5 +1,11 @@
 {
   "name": "BDCC P2",
   "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
-  "features": { "ghcr.io/devcontainers/features/docker-in-docker:2": {} }
+  "features": {
+    "ghcr.io/devcontainers/features/docker-in-docker:2": {
+      "moby": "false",
+      "enableNonRootDocker": "true",
+      "version": "latest"
+    }
+  }
 }

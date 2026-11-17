@@ -1,0 +1,29 @@
+{
+  "status": "complete",
+  "validator_version": "p2-1.0",
+  "run": "edited",
+  "input": "/input/counter_cases.csv",
+  "input_sha256": "3d283024c26d9cc8fa0f8e615406aef1fee5333e1028d79861554179234be4ac",
+  "counts": {
+    "delivered": 8,
+    "accepted": 4,
+    "rejected": 3,
+    "duplicates": 1
+  },
+  "rejection_reasons": {
+    "invalid_amount": 1,
+    "invalid_timestamp": 1,
+    "unknown_bank": 1
+  },
+  "python": "3.12.16",
+  "platform": "x86_64",
+  "image_id": "sha256:4f70a613231451736455b4cc70825aa8d0688fb8dfd89ffff8017ee7ff1e9d65",
+  "program_sha256": "a19df25cb56739bdeafa11fd19d68456aa924b2c444eda579155dfd8f3dd680f",
+  "start_utc": "2026-11-17T10:07:16.395408+00:00",
+  "elapsed_seconds": 0.007,
+  "output_sha256": {
+    "accepted.csv": "61078bfef96875c1ddb5314c93cb1c7ac46f348a0df1e21f9444358f902c4305",
+    "duplicates.csv": "b1a1f35bde07898418953437fe719ce8f2b84def27fee0a3bb9d936be105a6dd",
+    "rejected.csv": "a18a19ac8326b7efa295a38cf161ab3bee6ec6118f1f3095d59742de1dbb954e"
+  }
+}
